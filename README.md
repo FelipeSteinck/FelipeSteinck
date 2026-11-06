@@ -9,12 +9,13 @@ Undergraduate at the Federal University of Santa Catarina (UFSC), Brazil
 ![Electrical Machines](https://img.shields.io/badge/Electrical_Machines-17365D?style=flat-square)
 ![Finite Element Method](https://img.shields.io/badge/Finite_Element_Method-2563EB?style=flat-square)
 ![Research and Development](https://img.shields.io/badge/Research_%26_Development-0F766E?style=flat-square)
+![Computer Vision](https://img.shields.io/badge/Computer_Vision-0F766E?style=flat-square)
 
 </div>
 
 I'm an Electrical Engineering undergraduate focused on electrical machines, computational electromagnetics and numerical simulation. My undergraduate research experience includes axial-flux machines, nonlinear magnetostatic problems and material modeling for electromagnetic devices.
 
-I use computational tools to connect physical models, numerical methods and engineering analysis.
+I use computational tools to connect physical models, numerical methods and engineering analysis. My academic projects also explore computer vision and signal processing for human movement analysis.
 
 ## Research & Engineering Interests
 
@@ -22,6 +23,7 @@ I use computational tools to connect physical models, numerical methods and engi
 - **Computational electromagnetics:** finite element methods (FEM) and nonlinear magnetostatics.
 - **Magnetic materials:** magnetoelastic behavior and hysteresis modeling.
 - **Power electronics:** converter simulation and its connection to electrical machine applications.
+- **Computer vision & signal processing:** body pose estimation, landmark-based movement analysis and activity recognition.
 
 ## Current Research
 
@@ -36,7 +38,8 @@ The workflow combines **FreeFEM++** for finite element modeling, **Gmsh** for ge
 | **Magnetoelastic & magnetic material modeling** | Research code for electromagnetic devices; hysteresis studies, MATLAB and C/C++ integration. | [Public research repository](https://github.com/FelipeSteinck/IC-GRUCAD-Luiz-Felipe-Steinck.) |
 | **Axial-flux machine & nonlinear magnetostatics** | IC/PIBIC research using FreeFEM++, Gmsh and ParaView; related ANSYS simulation studies. | Research described above |
 | **Transformer simulation** | Electromagnetic modeling and analysis using ANSYS. | Academic project |
-| **Computer vision for movement analysis** | Secondary academic project: sit-to-stand recognition and counting with Python, OpenCV and MediaPipe. | Private repository |
+| **Real-time body pose estimation** | Webcam capture and visualization of 33 body landmarks using Python, OpenCV and a pre-trained MediaPipe Pose Landmarker model. | [Public repository](https://github.com/FelipeSteinck/detector-pose-corporal) |
+| **Monitor STS · sit-to-stand analysis** | Academic project for movement-state recognition and repetition counting, with Python, OpenCV, MediaPipe, a web interface and CSV export. | [Public repository](https://github.com/FelipeSteinck/projeto-sts) |
 
 ## Engineering & Simulation Tools
 
@@ -63,7 +66,15 @@ The workflow combines **FreeFEM++** for finite element modeling, **Gmsh** for ge
 
 - **MATLAB:** numerical models, data analysis and research scripts.
 - **C/C++:** research code and integration with MATLAB through MEX interfaces.
-- **Python:** scientific computing and image processing with OpenCV / MediaPipe.
+- **Python:** scientific computing, video processing and movement analysis with OpenCV, MediaPipe and NumPy.
+
+## Computer Vision & Signal Processing
+
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=flat-square&logo=mediapipe&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+
+My projects connect video acquisition, body landmark extraction and temporal analysis of movement data. The **body pose detector** visualizes estimated landmarks and skeletal connections in real time. **Monitor STS** builds on pose estimation to recognize movement states, count sit-to-stand cycles and export session data for analysis.
 
 ## Currently Learning
 
